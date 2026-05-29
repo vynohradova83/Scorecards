@@ -86,7 +86,3 @@ tr:hover {
   transition: 0.2s;
 }
 
-.nav a:hover {
-  background: #4b6cb7;
-  transform: translateY(-2px);
-}
