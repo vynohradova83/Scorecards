@@ -1,39 +1,70 @@
 body {
-  font-family: Arial, sans-serif;
-  background: #f4f4f4;
   margin: 0;
-  padding: 20px;
+  font-family: Arial, sans-serif;
+  background: #eef2f7;
+  color: #222;
 }
 
 h1 {
   text-align: center;
+  margin: 25px 0 10px;
+}
+
+.subtitle {
+  text-align: center;
+  margin-bottom: 20px;
+  opacity: 0.7;
+}
+
+.page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
 }
 
 table {
-  width: 80%;
-  margin: 20px auto;
+  width: 100%;
   border-collapse: collapse;
-  background: white;
-  border-radius: 10px;
+  border-radius: 14px;
   overflow: hidden;
+  background: white;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
 }
 
 th {
-  background: #222;
+  padding: 14px;
   color: white;
-  padding: 12px;
 }
 
 td {
-  padding: 10px;
+  padding: 12px;
   text-align: center;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #eee;
 }
 
 tr:nth-child(even) {
-  background-color: #f2f2f2;
+  background: #f6f8fb;
 }
 
 tr:hover {
-  background-color: #dfe6e9;
+  background: #e8f1ff;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  color: #555;
+  font-size: 13px;
+}
+
+.golf th {
+  background: linear-gradient(90deg, #1b5e20, #43a047);
+}
+
+.baseball th {
+  background: linear-gradient(90deg, #0d47a1, #1976d2);
+}
+
+.bowling th {
+  background: linear-gradient(90deg, #4a148c, #7b1fa2);
 }
